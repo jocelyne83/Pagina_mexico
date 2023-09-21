@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="stile.css">
+  <title>Login</title>
+</head>
+<body>
+  <div class="login-container">
+    <h2>Iniciar Sesión</h2>
+    <form>
+      <div class="form-group">
+        <label for="username">Usuario</label>
+        <input type="text" id="username" name="username" placeholder="Ingrese su usuario">
+      </div>
+      <div class="form-group">
+        <label for="password">Contraseña</label>
+        <input type="password" id="password" name="password" placeholder="Ingrese su contraseña">
+      </div>
+      <button type="submit" id="login-t">Ingresar</button>
+    </form>
+  </div>
+
+  <script>
+    document.getElementById("login-t").addEventListener("click", function() {
+      // Aquí puedes redireccionar a otra página usando window.location.href
+      // Por ejemplo, si quieres redireccionar a la página de inicio, puedes hacer lo siguiente:
+      window.location.href = "INDEX_Vega.html";
+    });
+  </script>
+</body>
+
+</html>
